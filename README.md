@@ -7,8 +7,7 @@ implementing a fundamental **two-wheel differential-drive** structure.
 
 <div align="center">
   <img src="images/cad_design.png" width="45%" />
-    <video src="https://user-images.githubusercontent.com/xxxx/demo.mp4"
-         controls loop muted playsinline width="720"></video>
+  <video src="images/cad_design.mp4" controls loop muted playsinline width="720"></video>
   <p><em>▲ Figure 1. Front and side views of the DiffDriveRobot prototype</em></p>
 </div>
 
