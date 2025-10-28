@@ -5,14 +5,10 @@
 implementing a fundamental **two-wheel differential-drive** structure.  
 
 <div align="center">
-  <img src="images/diffdrive_front.jpg" width="45%" />
-  <img src="images/diffdrive_side.jpg" width="45%" />
+  <img src="images/cad_design.png" width="45%" />
+  <img src="images/cad_design.gif" width="45%" />
   <p><em>▲ Figure 1. Front and side views of the DiffDriveRobot prototype</em></p>
 </div>
-
-This robot is designed as a starting point for testing  
-control, odometry, and navigation algorithms,  
-serving as the foundation for upcoming **Swerve, Quadruped, and Bipedal** robots in the *Project Gradus* roadmap.
 
 ---
 
@@ -85,13 +81,20 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard /cmd_vel:=/cmd_vel
 
 *(to be detailed in `hardware/assembly/`)*
 
-| Component      | Model / Link     | Description                   |
-| :------------- | :--------------- | :---------------------------- |
-| BLDC Motor       | TBD              | 3NM  |
-| Encoder        | TBD              | Wheel rotation measurement    |
-| Motor Driver   | TB6612 / L298N   | BLDC motor controller |
-| Battery        | TBD      | 24 V 20AH           |
-| Caster Wheel   | TBD              | Front, Rear stabilizer wheel         |
+| Component | Model / Link | Description |
+|:--|:--|:--|
+| **BLDC Motor** | TBD | 3 N·m torque|
+| **Encoder** | TBD | Wheel rotation feedback for odometry |
+| **Motor Driver** | TB6612 / L298N | BLDC control |
+| **Battery** | TBD | 24 V · 20 Ah LiFePO₄ battery pack |
+| **Caster Wheel** | TBD | Front and rear stabilizer wheels |
+| **LiDAR** | Velodyne VLP-16 | 16-channel 3D LiDAR sensor for environment perception |
+| **Camera** | Intel RealSense D435i | RGB-D camera for visual sensing |
+| **MCU** | ESP32 | Microcontroller|
+| **SBC** | Jetson Orin NX | Single-board computer|
+| **IMU** | TBD | -- |
+
+
 
 > 🧩 *This list is under continuous update.*
 
@@ -104,9 +107,6 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard /cmd_vel:=/cmd_vel
 
 
 ## 📜 License
-
-This project follows an open-source philosophy.
-All resources are freely available for research and educational use.
-(Specific license details can be found in the `LICENSE` file.)
+> This project follows an open-source philosophy. All resources are freely available for research and educational use. (Specific license details can be found in the `LICENSE` file.)
 ---
 
