@@ -5,8 +5,8 @@
 implementing a fundamental **two-wheel differential-drive** structure.  
 
 <div align="center">
-  <img src="images/diffdrive_front.jpg" width="45%" />
-  <img src="images/diffdrive_side.jpg" width="45%" />
+  <img src="images/cad_design.png" width="45%" />
+  <img src="images/cad_design.gif" width="45%" />
   <p><em>▲ Figure 1. Front and side views of the DiffDriveRobot prototype</em></p>
 </div>
 
