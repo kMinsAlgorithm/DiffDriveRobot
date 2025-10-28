@@ -10,10 +10,6 @@ implementing a fundamental **two-wheel differential-drive** structure.
   <p><em>▲ Figure 1. Front and side views of the DiffDriveRobot prototype</em></p>
 </div>
 
-This robot is designed as a starting point for testing  
-control, odometry, and navigation algorithms,  
-serving as the foundation for upcoming **Swerve, Quadruped, and Bipedal** robots in the *Project Gradus* roadmap.
-
 ---
 
 ## 📁 Directory Description
