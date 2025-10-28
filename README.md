@@ -87,7 +87,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard /cmd_vel:=/cmd_vel
 
 | Component      | Model / Link     | Description                   |
 | :------------- | :--------------- | :---------------------------- |
-| DC Motor       | TBD              | BLDC motors  |
+| BLDC Motor       | TBD              | 3NM  |
 | Encoder        | TBD              | Wheel rotation measurement    |
 | Motor Driver   | TB6612 / L298N   | BLDC motor controller |
 | Battery        | TBD      | 24 V 20AH           |
