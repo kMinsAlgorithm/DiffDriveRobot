@@ -111,8 +111,6 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard /cmd_vel:=/cmd_vel
 
 
 ## 📜 License
-**This project follows an open-source philosophy.
-All resources are freely available for research and educational use.
-(Specific license details can be found in the `LICENSE` file.)
-**---
+> This project follows an open-source philosophy. All resources are freely available for research and educational use. (Specific license details can be found in the `LICENSE` file.)
+---
 
