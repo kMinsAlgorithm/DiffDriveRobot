@@ -1,5 +1,6 @@
 # 🤖 DiffDriveRobot  
 
+
 ## 🧭 Overview
 **DiffDriveRobot** is the first open-source platform in the *Project Gradus* series,  
 implementing a fundamental **two-wheel differential-drive** structure.  
@@ -9,6 +10,31 @@ implementing a fundamental **two-wheel differential-drive** structure.
   <img src="images/cad_design.gif" width="45%" />
   <p><em>▲ Figure 1. Front and side views of the DiffDriveRobot prototype</em></p>
 </div>
+
+---
+
+## 🚀 Future Development  
+
+This section tracks the ongoing and upcoming development stages of **DiffDriveRobot**.  
+Each item will be updated with relevant commits and documentation as progress is made.  
+
+### 📁 Hardware & Design
+- [X] Upload full CAD and STL design files  
+- [ ] Complete commercial parts list under `hardware/assembly/`  
+
+### ⚙️ Control System
+- [ ] Upload **microcontroller code** (ESP32 firmware)  
+- [ ] Upload **ROS 2 bring-up code** (communication nodes & launch files)  
+
+### 🧠 Simulation & Navigation
+- [ ] Upload **Gazebo simulation environment** (URDF, world, and launch)  
+- [ ] Integrate **Nav2 (Navigation2)** stack for autonomous navigation  
+- [ ] Validate navigation stack with odometry and LiDAR data  
+
+### 🧩 Documentation
+- [ ] Add wiring diagrams and connection guide in `hardware/assembly/`  
+- [ ] Add usage examples for real-world and simulation setups  
+
 
 ---
 
@@ -100,10 +126,6 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard /cmd_vel:=/cmd_vel
 
 ---
 
-## 🚀 Future Development
-
-
----
 
 
 ## 📜 License
